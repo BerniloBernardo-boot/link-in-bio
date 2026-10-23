@@ -1,0 +1,68 @@
+/* Tablets */
+@media (max-width: 768px) {
+    .profile {
+        width: min(100%, 380px);
+    }
+
+    .sobre h1 {
+        font-size: 1.8rem;
+    }
+
+    .sobre p {
+        font-size: 0.95rem;
+    }
+}
+
+/* Telemóveis */
+@media (max-width: 480px) {
+    body {
+        padding: 28px 18px;
+        align-items: center;
+    }
+
+    .profile {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .foto-wrapper {
+        width: 100px;
+        margin-bottom: 24px;
+    }
+
+    .sobre h1 {
+        font-size: 1.6rem;
+        overflow-wrap: anywhere;
+    }
+
+    .sobre h2 {
+        font-size: 0.75rem;
+        letter-spacing: 1.5px;
+    }
+
+    .sobre p {
+        font-size: 0.9rem;
+        line-height: 1.7;
+    }
+
+    .links {
+        gap: 12px;
+        margin-top: 24px;
+    }
+
+    .links a {
+        padding: 14px;
+        min-height: 48px;
+    }
+}
+
+/* Ecrãs muito estreitos */
+@media (max-width: 320px) {
+    body {
+        padding: 24px 12px;
+    }
+
+    .sobre h1 {
+        font-size: 1.4rem;
+    }
+}
